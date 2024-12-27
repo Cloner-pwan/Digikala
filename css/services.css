@@ -1,0 +1,87 @@
+.services__container {
+  width: 100%;
+  height: 150px;
+  .services__center {
+    width: 87.6%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .items {
+      width: fit-content;
+      height: inherit;
+      display: flex;
+      flex-flow: row nowrap;
+      .services__column {
+        width: 135px;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        flex-flow: column nowrap;
+        padding: 24px;
+        gap: 8px; /*space between the image and the text */
+        cursor: pointer;
+        .image {
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+          .circle {
+            width: inherit;
+            height: inherit;
+            background-color: #f0f0f1;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2px;
+            .dot1 {
+              width: 5.5px;
+              height: 5.5px;
+              background-color: #a1a3a8;
+              border-radius: 50%;
+              display: flex;
+            }
+            .dot2 {
+              width: 5.5px;
+              height: 5.5px;
+              background-color: #a1a3a8;
+              border-radius: 50%;
+              display: flex;
+            }
+            .dot3 {
+              width: 5.5px;
+              height: 5.5px;
+              background-color: #a1a3a8;
+              border-radius: 50%;
+              display: flex;
+            }
+          }
+        }
+        .txt1 {
+          width: fit-content;
+          height: 15px;
+          p {
+            font-family: iranyekanBold;
+            font-size: 11px;
+            color: #3f4064;
+          }
+        }
+        .txt2 {
+          width: fit-content;
+          height: 15px;
+          p {
+            font-family: iranyekanBold;
+            font-size: 11px;
+            color: #3f4064;
+          }
+        }
+      }
+    }
+  }
+}

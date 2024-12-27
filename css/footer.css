@@ -1,0 +1,480 @@
+.top__info__container {
+  width: 100%;
+  height: 40px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  justify-content: space-between;
+  .logo {
+    width: 195px;
+    height: 30px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .returnBack {
+    width: 138px;
+    height: 40px;
+    border: 1px solid #e0e0e2;
+    border-radius: 6px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    .txt {
+      width: fit-content;
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        font-size: 12px;
+        font-family: iranyekanBold;
+        color: #a1a3a8;
+      }
+    }
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: #a1a3a8;
+    }
+  }
+}
+.bottom__info__container {
+  width: 100%;
+  height: 26px;
+  margin-top: 12px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  .txt {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 12px;
+      font-family: iranyekan;
+    }
+  }
+  .vrLine {
+    width: 1.5px;
+    height: 14px;
+    background-color: #a1a3a899;
+  }
+}
+
+.fivePic__container {
+  width: 100%;
+  height: 105px;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .item {
+    width: 292.5px;
+    height: 104px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    img {
+      width: 56px;
+      height: 56px;
+      cursor: pointer;
+    }
+    p {
+      font-size: 11px;
+      font-family: iranyekan;
+      color: #3f4064;
+    }
+  }
+}
+
+.contact__container {
+  width: 100%;
+  height: 300px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 16px;
+  .card {
+    width: 25%;
+    height: inherit;
+    padding: 16px 24px;
+    display: flex;
+    border-radius: 16px;
+    flex-flow: column nowrap;
+    .title {
+      width: fit-content;
+      height: fit-content;
+      p {
+        font-size: 16px;
+        font-family: iranyekanBold;
+        color: #3f4064;
+        cursor: pointer;
+      }
+      .subtxt {
+        font-size: 14px;
+        font-family: iranyekan;
+        color: #81858b;
+        margin-top: 16px;
+      }
+    }
+    .logo {
+      width: 100%;
+      height: 40px;
+      margin-top: 16px;
+      display: flex;
+      gap: 16px;
+      svg {
+        width: 40px;
+        height: 40px;
+        fill: #81858b;
+        margin-right: 8px;
+        cursor: pointer;
+      }
+    }
+    .etxt {
+      font-size: 14.5px;
+      font-family: iranyekanBold;
+      margin-top: 40px;
+      color: #3f4064;
+    }
+    .input__container {
+      width: 100%;
+      height: 48px;
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-around;
+      .emailInput__container {
+        width: 248px;
+        height: 48px;
+        background-color: #f0f0f1;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 8px;
+        #email {
+          width: 95%;
+          height: 24px;
+          border: none;
+          background-color: transparent;
+          font-size: 14px;
+          font-family: iranyekan;
+          &::placeholder {
+            color: #b0b2b4;
+          }
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      .submit__button {
+        width: 54px;
+        height: inherit;
+        border-radius: 8px;
+        #submit {
+          width: 100%;
+          height: inherit;
+          border: none;
+          border-radius: 8px;
+          font-size: 16px;
+          font-family: iranyekan;
+          color: white;
+          background-color: #e0e0e2;
+        }
+      }
+    }
+  }
+}
+
+.digikala__download__banner {
+  width: 94%;
+  height: 76px;
+  background-color: #3c4b6d;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px 16px;
+  .righ__part {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    .logo {
+      width: 44px;
+      height: 44px;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+      }
+    }
+    .txt {
+      width: fit-content;
+      height: fit-content;
+      p {
+        font-size: 21px;
+        font-family: iranyekanMedium;
+        color: white;
+        margin-right: 16px;
+      }
+    }
+  }
+  .left__part {
+    width: 50%;
+    height: inherit;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    .item {
+      width: 142px;
+      height: 44px;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        cursor: pointer;
+
+      }
+    }
+    .more {
+      width: 42.4px;
+      height: 44px;
+      background-color: #fff;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+      .dot {
+        width: 6px;
+        height: 6px;
+        background-color: #424750;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.split__line2 {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e2;
+  margin-top: 40px;
+}
+
+.about__container {
+  width: 100%;
+  height: 224px;
+  display: flex;
+  margin-top: 24px;
+  .right__part {
+    width: 71.5%;
+    height: inherit;
+    padding: 16px 24px;
+    display: flex;
+    .txt {
+      width: fit-content;
+      height: fit-content;
+      .title {
+        width: fit-content;
+        height: fit-content;
+        p {
+          font-size: 21px;
+          font-family: iranyekanBold;
+          color: #3f4064;
+        }
+      }
+      .subtxt {
+        width: fit-content;
+        height: fit-content;
+        margin-top: 16px;
+        .first {
+          color: #81858b;
+          font-size: 12px;
+          font-family: iranyekan;
+          line-height: 16px;
+        }
+        .second {
+          color: #81858bbb;
+          font-size: 12px;
+          font-family: iranyekan;
+          line-height: 16px;
+        }
+        .third {
+          color: #81858b77;
+          font-size: 12px;
+          font-family: iranyekan;
+          line-height: 16px;
+        }
+      }
+      .seeAll {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16px;
+        a {
+          font-size: 12px;
+          font-family: iranyekanBold;
+          color: #19bfd3;
+          text-decoration: none;
+        }
+        svg {
+          width: 18px;
+          height: 18px;
+          fill: #19bfd3;
+        }
+      }
+    }
+  }
+  .left__part {
+    width: calc(100% - 71.5%);
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 8px;
+    .Slogo {
+      width: 108px;
+      height: 108px;
+      border: 1px solid #e0e0e2;
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      img {
+        width: 75px;
+        height: 75px;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+.split__line3 {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e2;
+}
+
+.sourceWarning {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 11px;
+    font-family: iranyekan;
+    color: #81858b;
+  }
+}
+
+.digi__company {
+  width: 100%;
+  height: 80px;
+  background-color: #F0F0F1;
+  display: flex;
+  .comp {
+    width: 191px;
+    height: 80px;
+    border-left: 1px solid #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .pic1 {
+      width: 107.05px;
+      height: 20px;
+    }
+    .pic2 {
+      width: 75.29px;
+      height: 20px;
+    }
+    .pic3 {
+      width: 132.3px;
+      height: 20px;
+    }
+    .pic4 {
+      width: 67.6px;
+      height: 20px;
+    }
+    .pic5 {
+      width: 74.63px;
+      height: 20px;
+    }
+    .pic6 {
+      width: 82.5px;
+      height: 20px;
+    }
+    .pic7 {
+      width: 125px;
+      height: 20px;
+    }
+    .pic8 {
+      width: 85px;
+      height: 20px;
+    }
+  }
+}
+
+.digi__company2 {
+  width: 100%;
+  height: 80px;
+  background-color: #F0F0F1;
+  display: flex;
+  .comp {
+    width: 254.66px;
+    height: 80px;
+    border-left: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .pic1 {
+      width: 121.5px;
+      height: 20px;
+    }
+    .pic2 {
+      width: 83.53px;
+      height: 20px;
+    }
+    .pic3 {
+      width: 57.5px;
+      height: 20px;
+    }
+    .pic4 {
+      width: 160px;
+      height: 20px;
+    }
+    .pic5 {
+      width: 153.73px;
+      height: 20px;
+    }
+    .pic6 {
+      width: 138.75px;
+      height: 20px;
+    }
+  }
+}

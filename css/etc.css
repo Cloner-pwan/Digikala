@@ -1,0 +1,53 @@
+.split__line {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e2;
+    margin-top: 40px;
+}
+
+.support {
+    width: 48px;
+    height: 48px;
+    background-color: #ef4056;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 32px;
+    right: 44px;
+    z-index: 99999999;
+    cursor: pointer;
+    svg {
+        width: 24px;
+        height: 24px;
+        fill: white;
+    }
+}
+
+.supermarket {
+    width: 129.5px;
+    height: 52px;
+    background-color: #029a49;
+    border-radius: 32px;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    bottom: 32px;
+    left: 16px;
+    z-index: 99999999;
+    cursor: pointer;
+    p {
+        font-family: iranyekanBold;
+        font-size: 15px;
+        color: white;
+    }
+    svg {
+        width: 28px;
+        height: 60px;
+        fill: white;
+    }
+}   

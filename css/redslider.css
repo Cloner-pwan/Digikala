@@ -1,0 +1,189 @@
+.redslider__container {
+  width: 100%;
+  height: 295px;
+  .redslider__center {
+    width: 87.5%;
+    height: inherit;
+    background-color: #d82f4e;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px 0;
+    .swiper-slide {
+      .product__column {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: center;
+        gap: 4px;
+        cursor: pointer;
+        .pic {
+          width: 132px;
+          height: 132px;
+          margin: 8px auto;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .txt {
+          width: 144px;
+          height: 40px;
+          padding: 0 8px;
+          p {
+            font-size: 14px;
+            font-family: iranyekanBold;
+            color: #62666d;
+            text-align: right;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+        }
+        .price__information {
+          width: 100%;
+          height: 24px;
+          padding: 8px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 8px;
+          .discount__percentage {
+            width: 34px;
+            height: 20px;
+            background-color: #d32f2f;
+            border-radius: 16px;
+            padding: 4px 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span {
+              width: 100%;
+              height: 100%;
+              font-size: 14px;
+              font-family: iranyekan, Bhoma;
+              color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+          .current__product__price {
+            width: fit-content;
+            height: 24px;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            font-family: iranyekan, Bhoma;
+            svg {
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+        .main__price {
+          width: 100%;
+          height: 21px;
+          padding: 0 28px;
+          span {
+            width: 100%;
+            height: 100%;
+            font-size: 14px;
+            font-family: iranyekan, Bhoma;
+            text-decoration: line-through;
+            color: #c0c2c5;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+          }
+        }
+      }
+      &:nth-of-type(1) {
+        background-color: transparent;
+        .redslider__column {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          gap: 24px;
+          .svg1 {
+            width: 88px;
+            height: 88px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+          .svg2 {
+            width: 80px;
+            height: 80px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+          a {
+            width: 100%;
+            height: 26px;
+            text-decoration: none;
+            color: white;
+            font-family: iranyekan;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            svg {
+              width: 18px;
+              height: 18px;
+              fill: white;
+            }
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        border-radius: 0 8px 8px 0;
+      }
+      &:nth-last-of-type(1) {
+        border-radius: 8px 0 0 8px;
+        padding-top: 80px;
+        .circle {
+          width: 52px;
+          height: 52px;
+          border: 1.6px solid #19bfd3;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          svg {
+            width: 32px;
+            height: 32px;
+            fill: #19bfd3;
+          }
+        }
+        .text {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          a {
+            text-decoration: none;
+            font-size: 14px;
+            font-family: iranyekan;
+            color: #3f4064;
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}

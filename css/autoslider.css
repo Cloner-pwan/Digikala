@@ -1,0 +1,30 @@
+.autoslider__container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  .swiper-button-next {
+    position: absolute;
+    top: 340px;
+    right: 80px;
+  }
+
+  .swiper-button-prev {
+    position: absolute;
+    top: 340px;
+    right: 30px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    background-color: #0c0c0c;
+    transition: 300ms;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 16px;
+    height: 6px;
+    background-color: white;
+    border-radius: 6px;
+  }
+}

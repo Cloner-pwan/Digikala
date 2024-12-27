@@ -1,0 +1,34 @@
+.twoBanner__container {
+    width: 100%;
+    height: 264px;  
+    margin-top: 64px;
+    .twoBanner__center {
+        width: 87.5%;
+        height: inherit;
+        margin: 0 auto;
+        display: flex;
+        gap: 16px;
+        .pic__right {
+            width: 660px;
+            height: 264px;
+            border-radius: 16px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 16px;
+            }
+        }
+        .pic__left {
+            width: 660px;
+            height: 264px;
+            border-radius: 16px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 16px;
+            }
+        }
+    }
+}

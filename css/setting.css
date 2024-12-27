@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: iranyekan;
+    src: url(../fonts/IRANYekanWeb.eot);
+    src: url(../fonts/IRANYekanWeb.ttf);
+    src: url(../fonts/IRANYekanWeb.woff);
+    src: url(../fonts/IRANYekanWeb.woff2);
+}
+
+@font-face {
+    font-family: iranyekanBold;
+    src: url(../fonts/IranYekanBold/IRANYekanWeb-Bold.eot);
+    src: url(../fonts/IranYekanBold/IRANYekanWeb-Bold.ttf);
+    src: url(../fonts/IranYekanBold/IRANYekanWeb-Bold.woff);
+    src: url(../fonts/IranYekanBold/IRANYekanWeb-Bold.woff2);
+}
+
+
+@font-face {
+    font-family: iranyekanMedium;
+    src: url(../fonts/iranyekanMedium/IRANYekanWeb-Medium.eot);
+    src: url(../fonts/iranyekanMedium/IRANYekanWeb-Medium.ttf);
+    src: url(../fonts/iranyekanMedium/IRANYekanWeb-Medium.woff);
+    src: url(../fonts/iranyekanMedium/IRANYekanWeb-Medium.woff2);
+}
+
+@font-face {
+    font-family: Bhoma;
+    src: url(../fonts/Bhoma/BHoma.eot);
+    src: url(../fonts/Bhoma/BHoma.ttf);
+    src: url(../fonts/Bhoma/BHoma.woff);
+    src: url(../fonts/Bhoma/BHoma.woff2);
+}
